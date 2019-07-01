@@ -1,14 +1,34 @@
-:root{
-    --bodycolor:#FC7753;
-    --pcolor: #2ca58d;
-}
-
-body{
-    
-    font-family: 'Charm', cursive;  
-    color: var(--bodycolor); 
-}
-
-.hello{
-    color: var(--pcolor);
-}
+:root {
+    --lightBlue: #dae5ec;
+    --mainwhite: #a8720c;
+    --mainBlack: #333333;
+  }
+  .max-height {
+    min-height: 100vh;
+  }
+  body {
+    background: var(--lightBlue);
+  }
+  .message-container {
+    background: var(--mainwhite);
+  }
+  .message-content {
+    color: var(--lightBlue);
+  }
+  #submitBtn {
+    background: var(--lightBlue);
+    color: var(--mainwhite);
+  }
+  #submitBtn:hover {
+    color: var(--lightBlue);
+    color: var(--mainBlack);
+  }
+  
+  .feedback {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
